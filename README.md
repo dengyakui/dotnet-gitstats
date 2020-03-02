@@ -11,10 +11,13 @@ Also, it could calculate line changes between two commits, for example, lines ad
 
 Finally, it will generage a csv or json file based on output parameter.
 
-## Syntax
+## Supported Platform
+- windows 2012 R2+
+- linux
+
+## Usage
 
 ```bash
-
 # windows
 ./DotNetGitStats.exe -d <local repo dir> -o <output file path>
 
