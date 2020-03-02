@@ -12,7 +12,7 @@ Finally, it will generage a csv or json file based on output parameter.
 
 ## Supported Platform
 
-- windows 2012 R2+
+- windows
 - linux
 
 ## Usage
