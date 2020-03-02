@@ -1,7 +1,6 @@
 # DotNet GitStats
 
-![DotNet GitStats CI](https://github.com/dengyakui/dotnet-gitstats/workflows/DotNet%20GitStats%20CI/badge.svg?branch=master)
-
+![DotNet GitStats CI](https://github.com/leansoftX/dotnet-gitstats/workflows/DotNet%20GitStats%20CI/badge.svg)
 DotNet GitStats is a command line tool made with DotNet Core, it was used for commit log statistic from a git repo.
 
 Thanks to [libgit2sharp](https://github.com/libgit2/libgit2sharp),
