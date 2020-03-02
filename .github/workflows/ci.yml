@@ -13,12 +13,22 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.102
-    - name: Build with dotnet
-      run: dotnet publish -c Release -o publish/win-x64 -r win-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=true /p:PublishTrimmed=true
-    - name: Upload artifact
+    - name: Build With DotNet
+      run: |
+           dotnet publish -c Release -o publish/win-x64 -r win-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=true /p:PublishTrimmed=true
+           dotnet publish -c Release -o publish/linux-x64 -r linux-x64 /p:PublishSingleFile=true /p:IncludeSymbolsInSingleFile=true /p:PublishTrimmed=true
+    - name: Upload artifact win-x64
       uses: actions/upload-artifact@v1.0.0
       with:
         # Artifact name
-        name: DotNetGitStats
+        name: DotNetGitStats-win-x64
         # Directory containing files to upload
         path: publish/win-x64
+
+    - name: Upload artifact linux-x64
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        # Artifact name
+        name: DotNetGitStats-linux-x64
+        # Directory containing files to upload
+        path: publish/linux-x64
