@@ -1,5 +1,7 @@
 # DotNet GitStats
 
+![DotNet GitStats CI](https://github.com/dengyakui/dotnet-gitstats/workflows/DotNet%20GitStats%20CI/badge.svg?branch=master)
+
 DotNet GitStats is a command line tool used for commit log statistic from a git repo.Thanks to [libgit2sharp](https://github.com/libgit2/libgit2sharp),
 It could fetch every git commit logs from a standard git repo, and extract commit data from these logs.
 Also, it could calculate line changes between two commits, for example, lines added and lines deleted number.
