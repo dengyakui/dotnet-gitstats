@@ -1,6 +1,7 @@
 # DotNet GitStats
 
 ![DotNet GitStats CI](https://github.com/leansoftX/dotnet-gitstats/workflows/DotNet%20GitStats%20CI/badge.svg)
+
 DotNet GitStats is a command line tool made with DotNet Core, it was used for commit log statistic from a git repo.
 
 Thanks to [libgit2sharp](https://github.com/libgit2/libgit2sharp),
@@ -44,7 +45,6 @@ Finally, it will generage a csv or json file based on output parameter.
 - `AuthorDate` commit.Author.When.DateTime
 - `LinesAdded` numbers of line added compared with parent commit
 - `LinesDeleted` numbers of line added  compared with parent commit
-
 
 ## TODOs
 
