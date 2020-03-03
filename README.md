@@ -13,8 +13,8 @@ Finally, it will generage a csv or json file based on output parameter.
 
 ## Supported Platform
 
-- windows
-- linux
+- Windows
+- Linux
 
 ## Usage
 
