@@ -46,8 +46,12 @@ Finally, it will generage a csv or json file based on output parameter.
 - `LinesAdded` numbers of line added compared with parent commit
 - `LinesDeleted` numbers of line added  compared with parent commit
 
+## Generated File Sample
+
+![csv sample](images/2020-03-04-09-01-27.png)
+
 ## TODOs
 
 - [x] Set up Github action for CI
 - [x] Add README content
-- [ ] Create POWER BI report using csv file
+- [x] Create POWER BI report using csv file
